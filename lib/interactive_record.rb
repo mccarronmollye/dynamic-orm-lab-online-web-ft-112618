@@ -47,7 +47,7 @@ class InteractiveRecord
     
     DB[:conn].execute(sql)
     
-    @id =  DB[:conn].execute(last)
+    @id =  DB[:conn].execute(SELECT last)
   end 
   
   
