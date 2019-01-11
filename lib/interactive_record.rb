@@ -36,6 +36,7 @@ class InteractiveRecord
     
   def values_for_insert
     values = []
+    self.class.col_names_for_insert
   end 
   
   
