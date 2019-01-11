@@ -18,6 +18,7 @@ class InteractiveRecord
     column_names << column["name"] # how does this work??
     end
   column_names.compact
+  end 
   
   
 end
