@@ -63,7 +63,7 @@ class InteractiveRecord
   
   def self.find_by(attribute_hash)
     
-    
+    value = 
     
     
     sql = <<-SQL
