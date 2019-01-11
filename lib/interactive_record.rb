@@ -55,7 +55,8 @@ class InteractiveRecord
     sql = <<-SQL
     SELECT *
     FROM #{table_name_for_insert}
-    WHERE 
+    WHERE name = '#{name}'
+    SQL
   end 
   
 end
