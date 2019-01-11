@@ -16,7 +16,8 @@ class InteractiveRecord
     
     table_info.each do |column|
     column_names << column["name"] # how does this work??
-  end 
+    end
+  column_names.compact
   
   
 end
